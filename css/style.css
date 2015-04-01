@@ -144,3 +144,8 @@ footer
 {
 	padding-top: 0px;
 }
+
+.container
+{
+	width: 80%;
+}
