@@ -243,28 +243,29 @@
         <form class="col s12">
           <div class="row">
             <div class="input-field col s6 m6 l6">
-              <input id="name" type="text" class="validate"/>
+              <i class="mdi-action-account-circle prefix"></i>
+              <input id="name" type="text" class="validate" />
               <label for="name">Name</label>
             </div>
             <div class="input-field col s6 m6 l6">
-              <input id="email" type="email" class="validate"/>
+              <i class="mdi-communication-email prefix"></i>
+              <input id="email" type="email" class="validate" />
               <label for="email">Email</label>
             </div>
           </div>
-          <div class="row">
-            <div class="input-field col s12 m12 l12">
-              <input id="Message" type="text"/>
-              <label for="message">Message</label>
-            </div>
+          <div class="input-field col s12 m12 l12"><i class="mdi-content-drafts prefix"></i>
+            <textarea id="message" class="materialize-textarea" required></textarea>
+            <label for="message">Message</label>
+          </div>
+          <br>
+          <div class="row" align="center">
+            <button href="#" type="submit" class="modal-action modal-close waves-effect waves-light
+                                   btn">Send an E-mail <i class="mdi-content-send right"></i></button>
           </div>
         </form>
       </div>
     </div>
-    <div class="row" align="center">
-      <button href="#" class="modal-action modal-close waves-effect waves-light
-                             btn"><i class="mdi-content-send right"></i> Send an E-mail
-      </button>
-    </div>
+
   </div>
 
   <script src='http://codepen.io/assets/libs/fullpage/jquery.js'></script>
