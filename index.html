@@ -27,7 +27,8 @@
     <h5 class="grey-text text-darken-1">Accomplished Administration and Security Management Professional</h5>
     <br/>
     <br/>
-    <a href="#" class="btn-floating btn-large waves-effect waves-light-green">
+    <a href="#send-mail-modal" class="btn-floating btn-large waves-effect waves-light-green
+                      modal-trigger">
       <i class="mdi-communication-email"></i></a>
   </div>
 
@@ -235,13 +236,46 @@
       </ul>
     </div>
   </div>
+  <div id="send-mail-modal" class="modal modal-fixed-footer">
+    <div class="modal-content">
+      <h5>Contact Me</h5>
+      <div class="row">
+        <form class="col s12">
+          <div class="row">
+            <div class="input-field col s6 m6 l6">
+              <input id="name" type="text" class="validate"/>
+              <label for="name">Name</label>
+            </div>
+            <div class="input-field col s6 m6 l6">
+              <input id="email" type="email" class="validate"/>
+              <label for="email">Email</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12 m12 l12">
+              <input id="Message" type="text"/>
+              <label for="message">Message</label>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="row" align="center">
+      <button href="#" class="modal-action modal-close waves-effect waves-light
+                             btn"><i class="mdi-content-send right"></i> Send an E-mail
+      </button>
+    </div>
   </div>
 
   <script src='http://codepen.io/assets/libs/fullpage/jquery.js'></script>
   <script src='https://cdn.rawgit.com/Dogfalo/materialize/master/dist/js/
-
 						materialize.min.js'></script>
-
+  <script>
+    $(document).ready(function() {
+      // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+      $('.modal-trigger').leanModal();
+    });
+  </script>
   <script src="js/index.js"></script>
 </body>
 
