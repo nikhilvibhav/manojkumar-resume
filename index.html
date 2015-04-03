@@ -183,7 +183,7 @@
       <div class="col s4 m6 l4">
         <h5>Key Expertise Areas</h5>
         <hr>
-        <ul class="collapsible">
+        <ul class="collapsible" align="center">
           <!--<div class="card-content">-->
           <li>
             <div class="collapsible-header">Security Management</div>
@@ -240,7 +240,7 @@
     <div class="modal-content">
       <h5>Contact Me</h5>
       <div class="row">
-        <form class="col s12">
+        <form class="col s12 m12 l12">
           <div class="row">
             <div class="input-field col s6 m6 l6">
               <i class="mdi-action-account-circle prefix"></i>
@@ -253,14 +253,16 @@
               <label for="email">Email</label>
             </div>
           </div>
-          <div class="input-field col s12 m12 l12"><i class="mdi-content-drafts prefix"></i>
-            <textarea id="message" class="materialize-textarea" required></textarea>
-            <label for="message">Message</label>
+          <div class="row">
+            <div class="input-field col s12 m12 l12"><i class="mdi-editor-mode-edit prefix"></i>
+              <textarea id="message" class="materialize-textarea"></textarea>
+              <label for="message">Message</label>
+            </div>
           </div>
           <br>
           <div class="row" align="center">
             <button href="#" type="submit" class="modal-action modal-close waves-effect waves-light
-                                   btn">Send an E-mail <i class="mdi-content-send right"></i></button>
+                                   btn" action="send-mail.php">Send an E-mail <i class="mdi-content-send right"></i></button>
           </div>
         </form>
       </div>
