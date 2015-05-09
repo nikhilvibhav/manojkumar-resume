@@ -8,7 +8,8 @@
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="description" content="Resume">
+  <meta name="description" content="Manoj Kumar - CV">
+  <meta name="theme-color" content="#212121">
   <meta name="viewport" content="width=device-width, initial-scale=1;">
 
   <!-- FOR FIREFOX, OPERA, CHROME ETC-->
