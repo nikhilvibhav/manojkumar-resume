@@ -5,21 +5,22 @@ body, html
 
 .background-image 
 {
-	background-image: url('../assets/photos/safety.jpg');
-  	background-size: contain;
+	background-image: url('../assets/photos/fences.jpg');
+  	background-size: cover;
 }
 
 .intro
 {
 	text-align: center;
-	padding-top: 25%;
+	padding-top: 15%;
 	padding-bottom: 13%;
 	margin-bottom: 50pt;
 }
 
 .intro h1
 {
-	font-weight: 900;
+	font-weight: 300;
+	font-size: 75pt;
 }
 
 .intro h5
@@ -258,4 +259,23 @@ body, html
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
     opacity: 1;
+}
+
+.btn-floating .btn-large
+{
+	width: 112pt;
+	height: 112pt;
+}
+
+.btn-floating .btn-large i
+{
+	line-height: 112pt
+}
+
+.btn-flat
+{
+	box-shadow:none;
+	background-color:transparent;
+	color:#1e88e5;
+	cursor:pointer
 }
